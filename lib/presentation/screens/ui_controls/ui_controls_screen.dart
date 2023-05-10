@@ -87,8 +87,8 @@ class _UiControlsViewState extends State<_UiControlsView> {
         ),
         
         ExpansionTile(
-          title: Text('Comida'),
-          subtitle: Text('Preferencias de comida'),
+          title: const Text('Comida'),
+          subtitle: const Text('Preferencias de comida'),
           children: [
             CheckboxListTile(
               title: const Text('BreakFast?'),
