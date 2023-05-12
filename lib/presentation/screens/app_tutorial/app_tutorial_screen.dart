@@ -43,7 +43,6 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
     super.initState();
 
     pageViewController.addListener(() {
-
       final page = pageViewController.page ?? 0;
       if (!endReached && page >= (slides.length - 1.5)) {
         endReached = true;
@@ -59,7 +58,6 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
@@ -116,7 +114,7 @@ class _Slide extends StatelessWidget {
     final captionStyle = Theme.of(context).textTheme.bodySmall;
 
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 30),
+      padding: const EdgeInsets.symmetric(horizontal: 30),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

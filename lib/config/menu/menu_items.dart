@@ -55,6 +55,12 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Tutorial De La apliacición',
     link: '/app-tutorial',
     icon: Icons.ondemand_video_rounded),
-
+  
+  MenuItem(
+    title: 'Infinite Scroll',
+    subTitle: 'Scroll infinito de imagenes',
+    link: '/infinite',
+    icon: Icons.perm_device_information_outlined),
+   
 
 ];
